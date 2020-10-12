@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
     <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/test.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
     <!-- <script src="js/jquery.slim.min.js"></script> -->
     <!-- <script src="js/bootstrap.min.js"></script> -->
@@ -61,21 +62,25 @@
                   </div>
                 
             </nav>
+            <div class="cursor not-active" id="cursor"></div>
             <div class='pad5'>
                 <img class='svgImg' src="img/headline.svg" alt="Bienvenue à Binche..."/>
             </div>
             <div>
-                <div class="size32 pad17">
+                <div class="size32 pad17 target">
                     Une ville proche du citoyen, qui informe au mieux la population de la vie communale
                 </div>
-                <div class="size16 pad17"><span class="faIcon"><i class="fa fa-search" aria-hidden="true"></i></span> Que cherchez-vous ?</div>
-                <div class="size32 pad17">En un clic<span class="colorB">.</span></div>
+                <div class="size16 pad17 target2"><span class="faIcon"><i class="fa fa-search" aria-hidden="true"></i></span> Que cherchez-vous ?</div>
+                <div class="size32 pad17 target3">En un clic<span class="colorB">.</span></div>
                 <img class='positionImageBinche1' onmouseover="rotateAnimation('feteBiche',40)" onmouseout="normalImg('feteBiche')"id="feteBiche" src="img/iStock-513550806.png" alt="Bienvenue à Binche..."/>
                 <img class='positionImageBinche2' onmouseover="rotateAnimation('restoBiche',50)" onmouseout="normalImg('restoBiche')"id="restoBiche" src="img/iStock-1058704808.png" alt="Bienvenue à Binche..."/>
                 <div class="circleB"></div>
             </div>
+            
         </header>
         <div style="margin-top: 200px;"></div>
+        
+        
         <script>
             var looper,looper2;
             var degrees1 = 0, degrees2 = 0;
@@ -135,6 +140,6 @@
 
             }
         </script>
-      
+        <script src="js/js.js"></script>
     </body>
 </html>
