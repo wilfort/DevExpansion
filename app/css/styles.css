@@ -9,19 +9,32 @@
 
 @media screen and (max-width: 767px) {
   .pad17 {
-    padding: 0% 10% 0% 20%; } }
+    padding: 0% 10% 15% 20%; } }
 
 @media screen and (min-width: 768px) and (max-width: 1199px) {
   .pad17 {
-    padding: 0% 50% 0% 20%; } }
+    padding: 0% 50% 10% 20%; } }
 
 @media screen and (min-width: 1200px) {
   .pad17 {
-    padding: 0% 50% 0% 20%; } }
+    padding: 0% 50% 5% 20%; } }
+
+.faIcon {
+  background-color: #fed386;
+  border-radius: 100%;
+  padding: 10px 15px; }
 
 header {
-  background-color: #c1dfc4;
-  height: 500px; }
+  background-color: #c1dfc4; }
+  @media screen and (max-width: 767px) {
+    header {
+      height: 600px; } }
+  @media screen and (min-width: 768px) and (max-width: 1199px) {
+    header {
+      height: 750px; } }
+  @media screen and (min-width: 1200px) {
+    header {
+      height: calc(720px + 7.5vw); } }
 
 .colorB {
   color: #ea5b0c; }
@@ -32,6 +45,10 @@ header {
 .fondText {
   font: normal normal bold 32px/39px Georgia, serif;
   font-weight: 1000; }
+
+.fondTextNavLink2 {
+  font: normal normal normal 13px/39px 'Times New Roman', serif;
+  font-weight: 100; }
 
 .imgPA {
   position: absolute; }
@@ -48,23 +65,64 @@ header {
 .size32 {
   font-size: 32px; }
 
-#circle {
+.positionImageBinche1 {
   position: absolute; }
   @media screen and (max-width: 767px) {
-    #circle {
-      top: 135px;
-      left: 50px;
-      width: 310px;
-      height: 310px; } }
+    .positionImageBinche1 {
+      top: 435px;
+      left: 58%;
+      width: 40%; } }
   @media screen and (min-width: 768px) and (max-width: 1199px) {
-    #circle {
-      top: 135px;
-      left: 50px;
-      width: 310px;
-      height: 310px; } }
+    .positionImageBinche1 {
+      top: 435px;
+      left: 55%;
+      width: 40%; } }
   @media screen and (min-width: 1200px) {
-    #circle {
-      top: 135px;
-      left: 50px;
-      width: 310px;
-      height: 310px; } }
+    .positionImageBinche1 {
+      top: calc(435px + 8vw);
+      left: 50%;
+      width: 40%; } }
+
+.positionImageBinche2 {
+  position: absolute; }
+  @media screen and (max-width: 767px) {
+    .positionImageBinche2 {
+      top: calc(535px + 7.5vw);
+      left: 50%;
+      width: 15%; } }
+  @media screen and (min-width: 768px) and (max-width: 1199px) {
+    .positionImageBinche2 {
+      top: 635px;
+      left: 47.5%;
+      width: 15%; } }
+  @media screen and (min-width: 1200px) {
+    .positionImageBinche2 {
+      top: calc(635px + 17.5vw);
+      left: 42.5%;
+      width: 15%; } }
+
+.circleB {
+  background-color: #ea5b0c;
+  border-radius: 100%;
+  position: absolute; }
+  @media screen and (max-width: 767px) {
+    .circleB {
+      top: calc(565px + 7.5vw);
+      left: 92%;
+      width: 7.5%;
+      height: 7.5vw; } }
+  @media screen and (min-width: 768px) and (max-width: 1199px) {
+    .circleB {
+      top: 665px;
+      left: 90%;
+      width: 7.5%;
+      height: 7.5vw; } }
+  @media screen and (min-width: 1200px) {
+    .circleB {
+      left: 85%;
+      top: calc(665px + 17.5vw);
+      width: 7.5%;
+      height: 7.5vw; } }
+
+.nav-itemC {
+  color: black !important; }
