@@ -1,0 +1,70 @@
+.testing {
+  width: 75%; }
+
+.svgImg {
+  width: 100%; }
+
+.pad5 {
+  padding: 2% 5%; }
+
+@media screen and (max-width: 767px) {
+  .pad17 {
+    padding: 0% 10% 0% 20%; } }
+
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  .pad17 {
+    padding: 0% 50% 0% 20%; } }
+
+@media screen and (min-width: 1200px) {
+  .pad17 {
+    padding: 0% 50% 0% 20%; } }
+
+header {
+  background-color: #c1dfc4;
+  height: 500px; }
+
+.colorB {
+  color: #ea5b0c; }
+
+.iconH60 {
+  height: 60px; }
+
+.fondText {
+  font: normal normal bold 32px/39px Georgia, serif;
+  font-weight: 1000; }
+
+.imgPA {
+  position: absolute; }
+
+.size13 {
+  font-size: 13px; }
+
+.size16 {
+  font-size: 16px; }
+
+.size18 {
+  font-size: 18px; }
+
+.size32 {
+  font-size: 32px; }
+
+#circle {
+  position: absolute; }
+  @media screen and (max-width: 767px) {
+    #circle {
+      top: 135px;
+      left: 50px;
+      width: 310px;
+      height: 310px; } }
+  @media screen and (min-width: 768px) and (max-width: 1199px) {
+    #circle {
+      top: 135px;
+      left: 50px;
+      width: 310px;
+      height: 310px; } }
+  @media screen and (min-width: 1200px) {
+    #circle {
+      top: 135px;
+      left: 50px;
+      width: 310px;
+      height: 310px; } }

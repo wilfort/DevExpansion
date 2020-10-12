@@ -1,0 +1,81 @@
+// @import "node_modules/bootstrap/scss/bootstrap";
+// Small tablets and large smartphones (landscape view)
+$screen-sm-min: 576px;
+ 
+// Small tablets (portrait view)
+$screen-md-min: 768px;
+ 
+// Tablets and small desktops
+$screen-lg-min: 992px;
+ 
+// Large tablets and desktops
+$screen-xl-min: 1200px;
+
+.testing {
+    width: percentage(6/8);
+  }
+.svgImg{
+    width: 100%;
+}
+.pad5{padding: 2% 5%;}
+.pad17{
+  @media screen and (max-width: 767px){
+    padding: 0% 10% 0% 20%;
+  }
+  @media screen and (min-width: $screen-md-min) and (max-width: 1199px){
+    padding: 0% 50% 0% 20%;
+  }
+  @media screen and (min-width: $screen-xl-min){
+    padding: 0% 50% 0% 20%;
+  }
+}
+header {
+  background-color: #c1dfc4 ;
+  height: 500px;
+}
+.colorB{
+  color: #ea5b0c;
+}
+.iconH60{
+  height: 60px;
+}
+.fondText{
+  font: normal normal bold 32px/39px Georgia, serif;
+  font-weight: 1000;
+}
+.imgPA{
+  position: absolute;
+}
+.size13{
+  font-size: 13px;
+}
+.size16{
+  font-size: 16px;
+}
+.size18{
+  font-size: 18px;
+}
+.size32{
+  font-size: 32px;
+}
+#circle{
+  position: absolute;
+  @media screen and (max-width: 767px){
+    top: 135px;
+    left: 50px;
+    width: 310px;
+    height: 310px;
+  }
+  @media screen and (min-width: $screen-md-min) and (max-width: 1199px){
+    top: 135px;
+    left: 50px;
+    width: 310px;
+    height: 310px;
+  }
+  @media screen and (min-width: $screen-xl-min){
+    top: 135px;
+    left: 50px;
+    width: 310px;
+    height: 310px;
+  }
+}
