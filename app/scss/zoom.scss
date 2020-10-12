@@ -1,0 +1,18 @@
+.target {
+    transition: all .25s;
+    &.expanded {
+      font-size: 40px;
+    }
+}
+.target2 {
+    transition: all .5s;
+    &.expanded {
+      font-size: 50px;
+    }
+  }
+  .target3 {
+    transition: all .75s;
+    &.expanded {
+      font-size: 45px;
+    }
+  }

@@ -1,0 +1,126 @@
+.testing {
+  width: 75%; }
+
+.svgImg {
+  width: 100%; }
+
+.pad5 {
+  padding: 2% 5%; }
+
+@media screen and (max-width: 767px) {
+  .pad17 {
+    padding: 0% 10% 15% 20%; } }
+
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  .pad17 {
+    padding: 0% 50% 10% 20%; } }
+
+@media screen and (min-width: 1200px) {
+  .pad17 {
+    padding: 0% 50% 5% 20%; } }
+
+.faIcon {
+  background-color: #fed386;
+  border-radius: 100%;
+  padding: 10px 15px; }
+
+header {
+  background-color: #c1dfc4; }
+  @media screen and (max-width: 767px) {
+    header {
+      height: 600px; } }
+  @media screen and (min-width: 768px) and (max-width: 1199px) {
+    header {
+      height: 750px; } }
+  @media screen and (min-width: 1200px) {
+    header {
+      height: calc(720px + 7.5vw); } }
+
+.colorB {
+  color: #ea5b0c; }
+
+.iconH60 {
+  height: 60px; }
+
+.fondText {
+  font: normal normal bold 32px/39px Georgia, serif;
+  font-weight: 1000; }
+
+.fondTextNavLink2 {
+  font: normal normal normal 13px/39px 'Times New Roman', serif;
+  font-weight: 100; }
+
+.imgPA {
+  position: absolute; }
+
+.size13 {
+  font-size: 13px; }
+
+.size16 {
+  font-size: 16px; }
+
+.size18 {
+  font-size: 18px; }
+
+.size32 {
+  font-size: 32px; }
+
+.positionImageBinche1 {
+  position: relative;
+  width: 40vw;
+  height: 40vw; }
+  @media screen and (max-width: 767px) {
+    .positionImageBinche1 {
+      top: -380px;
+      left: 55%; } }
+  @media screen and (min-width: 768px) and (max-width: 1199px) {
+    .positionImageBinche1 {
+      top: -580px;
+      left: 55%; } }
+  @media screen and (min-width: 1200px) {
+    .positionImageBinche1 {
+      top: calc(-380px - 8vw);
+      left: 50%; } }
+
+.positionImageBinche2 {
+  position: relative;
+  width: 15vw;
+  height: 15vw; }
+  @media screen and (max-width: 767px) {
+    .positionImageBinche2 {
+      top: -280px;
+      left: 5%; } }
+  @media screen and (min-width: 768px) and (max-width: 1199px) {
+    .positionImageBinche2 {
+      top: -480px;
+      left: 5%; } }
+  @media screen and (min-width: 1200px) {
+    .positionImageBinche2 {
+      top: -330px;
+      left: 2.5vw; } }
+
+.circleB {
+  background-color: #ea5b0c;
+  border-radius: 100%;
+  position: relative;
+  width: 7.5vw;
+  height: 7.5vw; }
+  @media screen and (max-width: 767px) {
+    .circleB {
+      top: -480px;
+      left: 87vw; } }
+  @media screen and (min-width: 768px) and (max-width: 1199px) {
+    .circleB {
+      top: -700px;
+      left: 88vw; } }
+  @media screen and (min-width: 1200px) {
+    .circleB {
+      top: calc(-600px - 10vw);
+      left: 85vw; } }
+
+.nav-itemC {
+  color: black !important; }
+
+.nav-item:hover {
+  background-color: #86b38b;
+  color: #383636; }
