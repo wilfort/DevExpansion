@@ -79,65 +79,63 @@ header {
 }
 
 .positionImageBinche1{
-  position: absolute;
+  position: relative;
+  width: 40vw;
+  height: 40vw;
   @media screen and (max-width: 767px){
-    top: 435px;
-    left: 58%;
-    width: 40%;
+    top: -380px;
+    left: 55%;
   }
   @media screen and (min-width: $screen-md-min) and (max-width: 1199px){
-    top: 435px;
+    top: -580px;
     left: 55%;
-    width: 40%;
   }
   @media screen and (min-width: $screen-xl-min){
-    top: calc(435px + 8vw);
+    top: calc(-380px - 8vw);
     left: 50%;
-    width: 40%;
   }
 }
 .positionImageBinche2{
-  position: absolute;
+  position: relative;
+  width: 15vw;
+  height: 15vw;
   @media screen and (max-width: 767px){
-    top: calc(535px + 7.5vw);
-    left: 50%;
-    width: 15%;
+    top: -280px;
+    left: 5%;
   }
   @media screen and (min-width: $screen-md-min) and (max-width: 1199px){
-    top: 635px;
-    left: 47.5%;
-    width: 15%;
+    top: -480px;
+    left: 5%;
   }
   @media screen and (min-width: $screen-xl-min){
-    top: calc(635px + 17.5vw);
-    left: 42.5%;
-    width: 15%;
+    top: -330px;
+    left: 2.5vw;
   }
 }
 .circleB{
 
   background-color: #ea5b0c;
   border-radius: 100%;
-  position: absolute;
+  position: relative;
+  width: 7.5vw;
+  height: 7.5vw;
   @media screen and (max-width: 767px){
-    top: calc(565px + 7.5vw);
-    left: 92%;
-    width: 7.5%;
-    height: 7.5vw;
+    top: -480px;
+    left: 87vw;
   }
   @media screen and (min-width: $screen-md-min) and (max-width: 1199px){
-    top: 665px;
-    left: 90%;
-    width: 7.5%;
-    height: 7.5vw;
+    top: -700px;
+    left: 88vw;
   }
   @media screen and (min-width: $screen-xl-min){
-    left: 85%;
-    top: calc(665px + 17.5vw);
-    width: 7.5%;
-    height: 7.5vw;
+    top: calc(-600px - 10vw);
+    left: 85vw;
   }
 }
 .nav-itemC{
   color: black !important;
+}
+.nav-item:hover{
+background-color: #86b38b;
+color: rgb(56, 54, 54);
 }
