@@ -1,3 +1,6 @@
+body {
+  overflow-x: hidden; }
+
 .testing {
   width: 75%; }
 

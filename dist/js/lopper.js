@@ -61,6 +61,7 @@ let looper3 = setInterval(function(){
 }, 500);
 let looper4 = setInterval(function(){
     var elem = document.getElementById('svgBB');
+    degrees3--;
     if(navigator.userAgent.match("Chrome")){
         elem.style.WebkitTransform = "skewX("+degrees3+"deg)";
     } else if(navigator.userAgent.match("Firefox")){
@@ -73,5 +74,8 @@ let looper4 = setInterval(function(){
         elem.style.transform = "skewX("+degrees3+"deg)";
     }
 
-    degrees3++;
+    
+    if(degrees3 < -359){
+        degrees3=0;
+    }
 }, 50);

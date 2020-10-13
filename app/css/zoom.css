@@ -1,15 +1,24 @@
 .target {
-  transition: all .25s; }
+  transition: all .25s;
+  transition-property: color;
+  transition-duration: 3s;
+  transition-delay: 0.5s; }
   .target.expanded {
     font-size: 40px; }
 
 .target2 {
-  transition: all .5s; }
+  transition: all .5s;
+  transition-property: color;
+  transition-duration: 2s;
+  transition-delay: 2s; }
   .target2.expanded {
     font-size: 50px; }
 
 .target3 {
-  transition: all .75s; }
+  transition: all .75s;
+  transition-property: color;
+  transition-duration: 4s;
+  transition-delay: 1s; }
   .target3.expanded {
     font-size: 45px; }
 

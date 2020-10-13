@@ -3,19 +3,27 @@
     &.expanded {
       font-size: 40px;
     }
-    
+    transition-property: color;
+  transition-duration: 3s;
+  transition-delay: 0.5s;
 }
 .target2 {
     transition: all .5s;
     &.expanded {
       font-size: 50px;
     }
+    transition-property: color;
+  transition-duration: 2s;
+  transition-delay: 2s;
   }
   .target3 {
     transition: all .75s;
     &.expanded {
       font-size: 45px;
     }
+    transition-property: color;
+  transition-duration: 4s;
+  transition-delay: 1s;
   }
   .target:hover{
     color: #EACA0C;
