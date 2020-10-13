@@ -1,5 +1,5 @@
 var looper,looper2;
-var degrees1 = 0, degrees2 = 0;
+var degrees1 = 0, degrees2 = 0, degrees3 = 0;
 var sensR1 = "droite", sensR2 = "droite";
 function rotateAnimation(el,speed){ 
     var degrees;
@@ -13,9 +13,6 @@ function rotateAnimation(el,speed){
         sensR=sensR2;
     }
     var elem = document.getElementById(el);
-    var post=parseInt(elem.style.left);
-    console.log(elem)
-    console.log(post)
     if(navigator.userAgent.match("Chrome")){
         elem.style.WebkitTransform = "rotate("+degrees+"deg)";
     } else if(navigator.userAgent.match("Firefox")){
@@ -54,3 +51,27 @@ function normalImg(el){
     else if(el=="restoBiche"){clearTimeout(looper2);}
 
 }
+var currentcolor = [255,255,0];
+let looper3 = setInterval(function(){
+    var elem = document.getElementById('circle1');
+    currentcolor[0] = Math.floor(Math.random() * Math.floor(255));
+    currentcolor[1] = Math.floor(Math.random() * Math.floor(255));
+    currentcolor[2] = Math.floor(Math.random() * Math.floor(255));
+    elem.style.backgroundColor = 'rgb(' + currentcolor.toString() + ')';
+}, 500);
+let looper4 = setInterval(function(){
+    var elem = document.getElementById('svgBB');
+    if(navigator.userAgent.match("Chrome")){
+        elem.style.WebkitTransform = "skewX("+degrees3+"deg)";
+    } else if(navigator.userAgent.match("Firefox")){
+        elem.style.MozTransform = "skewX("+degrees3+"deg)";
+    } else if(navigator.userAgent.match("MSIE")){
+        elem.style.msTransform = "skewX("+degrees3+"deg)";
+    } else if(navigator.userAgent.match("Opera")){
+        elem.style.OTransform = "skewX("+degrees3+"deg)";
+    } else {
+        elem.style.transform = "skewX("+degrees3+"deg)";
+    }
+
+    degrees3++;
+}, 50);

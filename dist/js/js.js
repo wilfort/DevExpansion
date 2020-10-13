@@ -34,20 +34,10 @@ class Cursor {
         this.el.classList.add( 'expanded' )
         this.el.classList.remove( 'not-active' )
         this.target.classList.add( 'expanded' )
-  
-        TweenMax.to( this.el, 0.3, {
-          left: targetPosition.left - Math.sin( angle ) * hypotenuse / 5,
-          top: targetPosition.top - Math.cos( angle ) * hypotenuse / 5
-        } )
       } else {
         this.el.classList.add( 'not-active' )
         this.el.classList.remove( 'expanded' )
         this.target.classList.remove( 'expanded' )
-  
-        TweenMax.to( this.el, 0.3, {
-          left: cursorPosition.left,
-          top: cursorPosition.top
-        } )
       }
     }
   }

@@ -3,6 +3,7 @@
     &.expanded {
       font-size: 40px;
     }
+    
 }
 .target2 {
     transition: all .5s;
@@ -16,3 +17,12 @@
       font-size: 45px;
     }
   }
+  .target:hover{
+    color: #EACA0C;
+    }
+    .target2:hover{
+      color: #ea5b0c;
+      }
+      .target3:hover{
+        color: #EA0C2C;
+        }

@@ -12,3 +12,12 @@
   transition: all .75s; }
   .target3.expanded {
     font-size: 45px; }
+
+.target:hover {
+  color: #EACA0C; }
+
+.target2:hover {
+  color: #ea5b0c; }
+
+.target3:hover {
+  color: #EA0C2C; }
